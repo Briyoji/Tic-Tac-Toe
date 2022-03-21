@@ -142,5 +142,5 @@ def flip_player():
     elif current_player == "O":
         current_player = "X"
 
-
-play_game()
+if __name__ == '__main__':
+    play_game()
